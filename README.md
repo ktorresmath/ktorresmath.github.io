@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Personal Portfolio
 
 ### [Live Site](https://jsmasterypro.com)
@@ -10,3 +11,6 @@ In this video, we will create a full Personal Development Portfolio. We're going
 
 Setup:
 - run ```npm i && npm start```
+=======
+# ktorresmath.github.io
+>>>>>>> a53ac93d6e75b6d4a2378a2b459503f0634f8b0a
