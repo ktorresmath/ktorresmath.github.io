@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact } from 'react-icons/di';
+import { FaReact } from 'react-icons/fa'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,8 +9,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      Full-Stack Web Developer with Back-end Specialization
     </SectionText>
     <List>
       <ListItem>
@@ -19,8 +19,10 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            Experience with <br />
+            HTML - CSS <br />
+            <FaReact />JavaScript/React <br /> 
+            Bootstrap
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -32,22 +34,15 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Node/Express JS   <br />
+            Python  <br />
+            Java            <br />
+            PHP    <br />
+            MySql - MongoDB - PostgreSQL <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            tools like Figma
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
+      
     </List>
     <SectionDivider colorAlt />
   </Section>
